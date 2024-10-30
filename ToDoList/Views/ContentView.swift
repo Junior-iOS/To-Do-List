@@ -9,18 +9,8 @@ import SwiftUI
 import FirebaseCore
 
 struct ContentView: View {
-    init() {
-        FirebaseApp.configure()
-    }
-    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        LoginView()
     }
 }
 
